@@ -1,0 +1,6 @@
+﻿  TheIslandApp.cpp
+C:\Users\Jiwon\Desktop\Hashtag4\Hashtag4\source\Hashtag4\Log.h(19,54): warning C4251: 'Hashtag4::Log::s_CoreLogger': class 'std::shared_ptr<spdlog::logger>'에서는 class 'Hashtag4::Log'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\Users\Jiwon\Desktop\Hashtag4\Hashtag4\vendor\spdlog\include\spdlog\details\registry.h(33): message : 'std::shared_ptr<spdlog::logger>' 선언을 참조하십시오.
+C:\Users\Jiwon\Desktop\Hashtag4\Hashtag4\source\Hashtag4\Log.h(20,56): warning C4251: 'Hashtag4::Log::s_ClientLogger': class 'std::shared_ptr<spdlog::logger>'에서는 class 'Hashtag4::Log'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+C:\Users\Jiwon\Desktop\Hashtag4\Hashtag4\vendor\spdlog\include\spdlog\details\registry.h(33): message : 'std::shared_ptr<spdlog::logger>' 선언을 참조하십시오.
+  TheIsland.vcxproj -> C:\Users\Jiwon\Desktop\Hashtag4\TheIsland\..\bin\Debug-windows-x86_64\TheIsland\TheIsland.exe

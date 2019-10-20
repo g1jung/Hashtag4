@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Hashtag4">
+      <UniqueIdentifier>{39A9E42C-2576-3F38-4E8F-2DE03ABB74C6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\Hashtag4.h" />
+    <ClInclude Include="source\Hashtag4\Application.h">
+      <Filter>Hashtag4</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Hashtag4\Core.h">
+      <Filter>Hashtag4</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Hashtag4\EntryPoint.h">
+      <Filter>Hashtag4</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Hashtag4\Log.h">
+      <Filter>Hashtag4</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Hashtag4\Events\Event.h" />
+    <ClInclude Include="source\Hashtag4\Events\ApplicationEvent.h" />
+    <ClInclude Include="source\Hashtag4\Events\KeyEvent.h" />
+    <ClInclude Include="source\Hashtag4\Events\MouseEvent.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\Hashtag4\Application.cpp">
+      <Filter>Hashtag4</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Hashtag4\Log.cpp">
+      <Filter>Hashtag4</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
